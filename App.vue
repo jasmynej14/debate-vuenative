@@ -2,12 +2,8 @@
 
 <template>
   <view class="container">
-    <text class="text-color-primary">Debate app!</text>
-    <text> {{ subtitle }} </text>
-    
-    <button id="btn" title="press" @press ="exclaim" />
-    <text> Count: {{ count }}</text>
     <Feed />
+    
   </view>
 </template>
 <script>
@@ -29,7 +25,7 @@
 </script>
 <style>
 .container {
-  background-color: rgb(106, 88, 122);
+  background-color: rgb(95, 139, 233);
   align-items: center;
   justify-content: center;
   flex: 1;
