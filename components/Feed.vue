@@ -1,12 +1,20 @@
 <template>
     <scroll-view class="view-container">
-            <text>title</text>
-      
+            
+      <FeedItem />
+      <button title="see more"/>
+      <FeedItem />
+      <button title="see more"/>
+      <FeedItem />
+      <button title="see more"/>
     </scroll-view>
 </template>
 
 <script>
+
+import FeedItem from './FeedItem'
 export default {
+    components: {FeedItem},
     data(){
         return {
 

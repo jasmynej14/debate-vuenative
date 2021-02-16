@@ -17,7 +17,7 @@
         };
       },
       methods:{
-        exclaim(){
+        exclaim(){ 
          this.count+=1;
         }
       }
@@ -25,7 +25,7 @@
 </script>
 <style>
 .container {
-  background-color: rgb(95, 139, 233);
+  background-color: rgb(255, 255, 255);
   align-items: center;
   justify-content: center;
   flex: 1;
